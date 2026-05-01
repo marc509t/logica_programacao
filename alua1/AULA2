@@ -1,0 +1,44 @@
+print("---------------------|")
+print("         CALCULADORA  ")
+print("----------------------")
+()
+print("ESSA CALUCADORA,FAZ TODAS AS OPERAÇES")
+print("A PARTIR DE DOIS NUMEROS QUE VOCe INFORMAR")
+print()
+
+
+FIRST_NUM = float(input("DIGITE O PRIMEIRO"))
+second_num = float()
+print("1 - As 4 operaçoes")
+adicao = FIRST_NUM + second_num
+subtracao = FIRST_NUM - second_num
+multi = FIRST_NUM * second_num
+
+
+match opcao:
+    case 1:
+        first_num = float(input("digite o primeiro numero:"))
+        second_num = float(input("digite o segundo numero:"))
+        print()
+
+        adicao = first_num + second_num
+        print("A adiçao resulta em:",adicao)
+
+        subtracao = first_num -second_num
+        print("A subtraçao resulta em :",subtracao)
+
+        multi = first_num * second_num
+        print(f"A multipliacaçao resulta em{multi}")
+
+        #verificando se o segundo numero e diferente de 0
+        if second_num !=0:
+            divisao = first_num / second_num
+            print(f"A divisao resulta em {divisa}")
+        else:
+            print("A divisao nao pode ser feita.") 
+
+    case 2:
+            print("Media de 3 valres")
+            primeiro_valor = float(input("digite o primero valor:"))
+            segundo_valor = float(input("digite o segundo vlor;"))
+            terceiro_valor = float
